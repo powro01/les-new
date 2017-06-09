@@ -39,6 +39,23 @@ h5 {
     .navigation .logo img {
       max-width: 100%;
       height: 80px; }
+  .navigation .navigation-list {
+    width: auto;
+    height: 80px;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .navigation .navigation-list li {
+      display: block;
+      float: left; }
+      .navigation .navigation-list li a {
+        height: 80px;
+        padding: 15px;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
   .navigation .menu-trigger {
     margin-top: 24px;
     width: 40px;

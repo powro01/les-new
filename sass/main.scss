@@ -51,6 +51,29 @@ h5 {
         }
     }
 
+    .navigation-list {
+        width: auto;
+        height: 80px;
+        display: inline-block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: block;
+            float: left;
+
+            a {
+                height: 80px;
+                padding: 15px;
+                float: left;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
     .menu-trigger {
         margin-top: 24px;
         width: 40px;
